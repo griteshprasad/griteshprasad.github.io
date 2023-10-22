@@ -1509,8 +1509,8 @@ header .logo a {
 	width: 15rem;
 	/* border-radius: 50%;	 */
 	border: 5px;
-	border-style: solid;
-	border-color: rgba(2, 231, 143, 0.911);
+	/* border-style: solid;
+	border-color: rgba(2, 231, 143, 0.911); */
 	margin: 1rem 0 0 -5rem;
 	float: left;
 }
