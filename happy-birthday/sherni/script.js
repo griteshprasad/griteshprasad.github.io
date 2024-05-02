@@ -115,3 +115,14 @@ controlBtn.addEventListener("click", playPause);
 track.addEventListener("ended", function() {
   controlBtn.className = "play";
 });
+
+
+function checkScreenSize(){
+	var w = window.screen.width;
+	var h = window.screen.height;
+
+	if(!(w >= 1200 && w<= 1500 && h >= 700 && h<= 1000)){
+		alert("Please open the site on your Laptop, Babu, my jaan, shona, mona, jaadu, tona... hehehe !")
+		location.replace("./img/404.jpeg")
+	}
+}
