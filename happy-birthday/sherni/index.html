@@ -2,9 +2,17 @@
 <html>
   <head>
     <title>Happy Birthday Sherni</title>
+    <script>
+      var w = window.screen.width;
+	    var h = window.screen.height;
+      if(!(w >= 1200 && w<= 1500 && h >= 700 && h<= 1000)){
+        alert("Please open the site on your Laptop, Babu, my jaan, shona, mona, jaadu, tona... hehehe !")
+        location.replace("./img/404.jpeg")
+      }
+    </script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body onload="checkScreenSize()">
+  <body>
     <div class="banner row">
       <div class="column">
         <img src="./img/balloon.gif" class="balloon" alt="Balloon" height="400px"/>
