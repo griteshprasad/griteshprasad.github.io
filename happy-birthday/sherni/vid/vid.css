@@ -1,0 +1,13 @@
+body {
+    background-color: #ffceed;
+    overflow: hidden;
+  }
+
+  .video {
+    width: 70vw;
+    height: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-top: 4%;
+    margin-right: auto;
+}
