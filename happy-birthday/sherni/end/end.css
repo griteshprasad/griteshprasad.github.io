@@ -97,3 +97,34 @@ h2{
     margin: 0px;
     margin-bottom: 10px;
 }
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:45px;
+	background-color:rgb(255, 0, 140);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+  animation: blink 2s linear infinite;
+}
+
+@keyframes blink{
+  0%{opacity: 0;}
+  25%{opacity: .5;}
+  50%{opacity: 1;}
+  75%{opacity: .5;}
+  100%{opacity: 0;}
+  }
+
+  .hide {
+    display: none;
+  }
+      
+  .myDIV:hover + .hide {
+    display: block;
+    color: red;
+  }
