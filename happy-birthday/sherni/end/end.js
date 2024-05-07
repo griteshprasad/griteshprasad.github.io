@@ -8,10 +8,10 @@ var clicked = 0;
         	alert("Arre badtameez..chaliye earphones lagaiye jaldi...ab firse click kijiye");
         }
         if(clicked == 3){
-        	alert("Laga liya na earphone ???...ok, now click again");
+        	alert("Apna wireless wala ear buds hi laga lijiye warna audio ka experience kharab ho jayega");
         }
         if(clicked == 4){
-        	alert("Pakka na ???...chaliye kr lijiye pink button firse click");
+        	alert("laga liya ??? Pakka na ???...chaliye kr lijiye pink button firse click");
         }
         if(clicked == 5){
         	alert("Thik hai ab click kijiye uss pink circle pe...ye final..hehehe");
